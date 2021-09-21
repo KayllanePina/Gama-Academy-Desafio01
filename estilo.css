@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+/* Navbar */
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgb(221, 23, 23);
+}
+
+.navbar-brand {
+    font-size: 40px;
+    text-align: center;
+}
+
+.nav-link {
+    font-weight: 100;
+    color: #fff;
+    text-shadow: 1px 1px 2px #54e9a3;
+}
+/* Fim do navbar */
+
+/* Conteudo main do index.html */
+.conteudo-principal h2{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.container-fluid {
+    border: none;
+    border-radius: 3px;
+}
+
+main {
+    padding: 2rem;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+.texto-apresentacao {
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card-text, h5{
+    color: #000;
+}
+
+
+/* Página quem-somos.html */
+h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(221, 23, 23);
+}
+
+.conteudo-principal,
+p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.main-text{
+    text-align: center;
+}
+
+form label {
+    color: #fff;
+}
+/* Fim da pagina quem-somos.html */
+
+h3 {
+    color: #fff;
+    margin-left: 10px;
+    padding: 5px 2px;
+    text-shadow: 1px 1px 1px rgb(221, 23, 23);
+}
+
+
+/* Página de produtos */
+.breadcrumb a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000;
+}
+/* Fim da página de produtos */
+
+
+
+/*Footer */
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    padding: 5px;
+}

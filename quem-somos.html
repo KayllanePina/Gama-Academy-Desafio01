@@ -1,49 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 
-  <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <title>Quem somos?</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>Sports World - Quem somos?</title>
 </head>
+
 <body>
-  <header>
-    <div class="cabecalho">
-      <h1 class="logo">Sports World</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <h1 class="navbar-brand">Sports World</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="categorias.html">Categorias</a>
-        <a href="quem-somos.html">Quem somos?</a>  
-      </nav>
-    </div>     
-  </header>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quem-somos.html">Quem somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
+                        
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="produto.html">Futebol</a>
+                            <a class="dropdown-item" href="produto.html">Basquete</a>
+                            <a class="dropdown-item" href="produto.html">Vôlei</a>
+                            <a class="dropdown-item" href="produto.html">Tênis</a>
+                            <a class="dropdown-item" href="produto.html">Infantil</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <a href="produto.html" class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</a>
+                </form>
+            </div>
+        </nav>
+    </header>
 
-  
-  <main class="conteudo-principal">
-    <h1>Quem somos?</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt optio repudiandae voluptas vero vitae, asperiores aliquam deleniti repellendus voluptates dolor neque nemo necessitatibus amet inventore? Eos vero non blanditiis pariatur!</p>
 
-    <br>
+    <main class="conteudo-principal">
+        <h2>Quem somos?</h2>
+        <p class="main-text">Somos a sua loja número 1 de artigos esportivos. Atendemos você e toda sua família.</p>
 
-    <h2>Qual nosso objetivo?</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ex ut vero labore id minima voluptates perspiciatis corrupti delectus cum voluptatem, velit nulla ullam, totam consectetur aut molestiae harum neque!</p>
+        <br>
 
-  </form>
-  </main>
+        <h2>Qual nosso objetivo?</h2>
+        <p class="main-text">Queremos levar o esporte para as suas casas para que todos tenham uma vida mais saudável e divertida!</p>
 
-  <footer>
-    <div class="copyright">
-      <p>Lorem ipsum dolor sit amet. &copy;</p>
-    </div>
-  </footer>
-  
+        <br>
+
+        <h2>Tem alguma sugestão, dúvida, feedback? Manda pra gente :)</h2>
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Nome</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome ou Apelido">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Endereço de email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Escreva sua mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <p>&copy; 2021 Lorem ipsum dolor.</p>
+
+            <div icons>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
