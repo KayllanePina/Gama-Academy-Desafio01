@@ -43,7 +43,7 @@ ________________________________________________________________________________
 * Estimativa: 1:30 horas
 
 
-* Estória 02: aplicação da responsividade e acessibilidade no site
+* Estória 02: aplicação da responsividade e no site
 * Estimativa: 2:00 horas
 
 * Estória 03: revisão e teste do site completo.
