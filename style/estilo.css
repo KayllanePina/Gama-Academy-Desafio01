@@ -60,6 +60,7 @@ p {
     text-align: justify;
     color: #fff;
 }
+/* Fim da página index.html */
 
 
 /* Página quem-somos.html */
@@ -107,6 +108,62 @@ a:hover{
 }
 /* Fim da página de produtos */
 
+/* Página do produto principal */
+.produto-principal, .card{
+    background-color: #000;
+}
+  
+.card-title{
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(221, 23, 23);
+}
+
+.card-subtitle{
+      font-size: 1.5rem;
+      text-shadow: 1px 1px 1px rgb(221, 23, 23);
+}
+  
+h5{
+    text-align: center;
+}
+  
+h6, p{
+    color: #fff;
+}
+
+p{
+    text-align: left;
+}
+  
+.btn{
+     color: #fff;
+    background-color: rgb(28, 30, 168);
+}
+  
+h4 {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(246, 24, 24);
+    padding: 25px;
+}
+  
+.modal-title{
+    color: #000;
+    text-align: center;
+    font-size: 1.5rem;
+}
+  
+.modal-body{
+    text-align: left;
+    font-style: italic;
+    color: #000;
+}
+  
+.container-btn{
+
+    display: flex;
+    flex-direction: column;
+}
+  /* fim da página de produto principal */
 
 /*Footer */
 .rodape {
@@ -130,59 +187,3 @@ a {
 }
 /* Fim do footer */
 
-
-
-/* Página do produto principal */
-.produto-principal, .card{
-    background-color: #000;
-  }
-  
-  .card-title{
-    color: #fff;
-    text-shadow: 1px 1px 1px rgb(221, 23, 23);
-  }
-
-  .card-subtitle{
-      font-size: 1.5rem;
-      text-shadow: 1px 1px 1px rgb(221, 23, 23);
-  }
-  
-  h5{
-    text-align: center;
-  }
-  
-  h6, p{
-    color: #fff;
-  }
-
-  p{
-    text-align: left;
-  }
-  
-  .btn{
-     color: #fff;
-    background-color: rgb(28, 30, 168);
-  }
-  
-  h4 {
-    color: #fff;
-    text-shadow: 1px 1px 1px rgb(246, 24, 24);
-    padding: 25px;
-  }
-  
-  .modal-title{
-    color: #000;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-  
-  .modal-body{
-    text-align: left;
-    font-style: italic;
-    color: #000;
-  }
-  
-  .container-btn{
-    display: flex;
-    flex-direction: column;
-  }
