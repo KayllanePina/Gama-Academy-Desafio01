@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style/estilo.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
@@ -22,7 +22,7 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <h1 class="navbar-brand">Sports World</h1>
+            <a class="navbar-brand" href="index.html">Sports World</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -52,7 +52,7 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                    <a href="produto.html" class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</a>
+                    <a href="produto.html" class="btn btn-primary my-2 my-sm-0" type="submit">Pesquisar</a>
                 </form>
             </div>
         </nav>
@@ -60,13 +60,14 @@
     </header>
 
 
-    <main>
+    <main class="produto-principal">
         <nav aria-label="breadcrumb">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="index.html">Categorias</a></li>
               <li class="breadcrumb-item"><a href="produto.html">Futebol</a></li>
-              <li class="breadcrumb-item" aria-current="page">Camisetas</li>
+              <li class="breadcrumb-item" aria-current="page">Camisas</li>
             </ol>
           </nav>
 
@@ -94,7 +95,96 @@
           </div>
           <!-- fim do carousel -->
 
-          <!-- Descrição do produto -->
+           <!-- descrição do produto -->
+    <div class="card" style="width: 100%; height: auto;">
+      <div class="card-body">
+        <h5 class="card-title">Camisa do Flamengo TEMP. 21/22</h5>
+        <h6 class="card-subtitle mb-2 text-auto">De <s>R$ 300,00</s> por R$ 250,00</h6>
+        <p class="card-text">Foi um ano em que o CR Flamengo dominou o futebol continental e mundial. Por isso, a adidas inspirou-se na camisa do clube de 1981 ao desenvolver a camisa oficial desta temporada. Criada para manter os torcedores confortáveis, ela tem tecnologia AEROREADY que afasta o suor. As cavas largas, o escudo extragrande e a inscrição "Ano de Ouro" marcam o 40° aniversário daquele ano dourado.</p>
+        <a href="#" class="btn btn-primary" type="button"><i class="fas fa-cart-plus"></i> Adicionar ao carrinho</a>
+      </div>
+    </div>
+    <!-- fim da descrição do produto -->
+
+    <!-- DESCRIÇÃO -->
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <h4 class="nav">Descrição</h4>
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repellat.
+                Sapiente iste consequuntur nobis illo pariatur placeat dolor explicabo. Eligendi vitae neque rem
+                recusandae beatae, harum blanditiis impedit reiciendis! Assumenda!</p>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <h4 class="nav">Ficha técnica</h4>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quae iure,
+                consequuntur vitae, enim quasi laudantium eos, accusantium aspernatur deserunt minus deleniti! Voluptate
+                sed laboriosam quo dignissimos velit labore maxime animi pariatur dolorum, eaque fugiat doloremque
+                blanditiis nihil minima, ipsum iure architecto. Accusantium eaque deserunt magni tempore, vero voluptas
+                repellendus facere minima nihil esse, vel voluptate quidem placeat magnam sapiente, labore voluptatibus
+                nisi?</p>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <h4 class="nav">Formas de Pagamento</h4>
+            <div class="card-body">
+              <div class="container-btn">
+                <button type="button" class="btn btn-primary" data-toggle="modal"
+                  data-target="#ExemploModalCentralizado" style="margin-bottom: 5px;">
+                  Boleto
+                </button>
+                <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog"
+                  aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">Boleto</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Pagamento no boleto somente à vista.
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModal">
+                  Cartão de Crédito
+                </button>
+                <div class="modal fade" id="ExemploModal" tabindex="-1" role="dialog"
+                  aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">Parcelas</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        3x de R$ 93,33
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </li>
+        </ul>
+
+
+      </div>
+      <!-- FIM DA DESCRIÇÃO -->
     </main>
 
     <footer>

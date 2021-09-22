@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgb(221, 23, 23);
+    font-size: 40px;
+    text-align: center;
+}
+
+.nav-link {
+    font-weight: 100;
+    color: #fff;
+    text-shadow: 1px 1px 2px #54e9a3;
+}
+/* Fim do navbar */
+
+/* Conteudo main do index.html */
+.conteudo-principal h2{
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.container-fluid {
+    border: none;
+    border-radius: 3px;
+}
+
+main {
+    padding: 2rem;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+.texto-apresentacao {
+    color: #fff;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #000;
+    padding: 10px;
+}
+
+.card-text{
+    text-align: justify;
+    color: #fff;
+}
+
+
+/* Página quem-somos.html */
+h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(221, 23, 23);
+}
+
+.conteudo-principal, .texto-apresentacao {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.main-text{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+form label {
+    color: #fff;
+}
+/* Fim da pagina quem-somos.html */
+
+
+/* Página de produtos */
+.breadcrumb{
+    background-color: #000;
+}
+
+.breadcrumb a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.breadcrumb li{
+    color: #fff;
+}
+
+a:hover{
+    color: #647db8;
+}
+
+.btn{
+    background-color: #000;
+}
+/* Fim da página de produtos */
+
+
+/*Footer */
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    background-color: #1b1c1d;
+}
+
+.rodape p{
+    padding-top: 30px;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+a {
+    color: #fff;
+    padding: 5px;
+}
+/* Fim do footer */
+
+
+
+/* Página do produto principal */
+.produto-principal, .card{
+    background-color: #000;
+  }
+  
+  .card-title{
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(221, 23, 23);
+  }
+
+  .card-subtitle{
+      font-size: 1.5rem;
+      text-shadow: 1px 1px 1px rgb(221, 23, 23);
+  }
+  
+  h5{
+    text-align: center;
+  }
+  
+  h6, p{
+    color: #fff;
+  }
+
+  p{
+    text-align: left;
+  }
+  
+  .btn{
+     color: #fff;
+    background-color: rgb(28, 30, 168);
+  }
+  
+  h4 {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(246, 24, 24);
+    padding: 25px;
+  }
+  
+  .modal-title{
+    color: #000;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .modal-body{
+    text-align: left;
+    font-style: italic;
+    color: #000;
+  }
+  
+  .container-btn{
+    display: flex;
+    flex-direction: column;
+  }
